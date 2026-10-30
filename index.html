@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8faf9">
+<title>MEETUP — Meet people. Make plans.</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="#">MEET<span>UP</span></a><nav><a href="#discover">Discover</a><a href="#how">How it works</a><button id="loginBtn" class="outline">Log in</button><button id="signupBtn" class="primary">Join MEETUP</button></nav></header>
+<main>
+<section class="hero"><div><p class="eyebrow">MEET PEOPLE · MAKE PLANS</p><h1>Your next plan<br>starts here.</h1><p class="lead">Find people for coffee, movies, dinner, travel and more. Apply to meet, with approval and consent at every step.</p><a class="primary cta" href="#discover">Explore meetings</a></div><aside class="hero-card"><small>MEETUP COMMUNITY</small><strong>Across India</strong><p>Discover public meetups from people around the country.</p><div class="mini">18+ community · Consent first · Safer public meetups</div></aside></section>
+<section id="discover" class="section"><div class="section-head"><div><p class="eyebrow">FIND YOUR NEXT PLAN</p><h2>Discover meetings</h2></div><button class="primary" id="createBtn">+ Create meeting</button></div><div class="filters"><input id="search" placeholder="Search coffee, movie, dinner…"><select id="type"><option value="">All types</option><option>Coffee</option><option>Movie</option><option>Dinner</option><option>Shopping</option><option>Travel</option><option>Hangout</option></select></div><div id="cards" class="cards"><article class="meeting"><span class="tag">Coffee</span><h3>Sample meetup</h3><p>Example listing — connect the backend to show real meetings.</p><div class="meta">Member · Age hidden until approved</div></article><article class="meeting"><span class="tag">Movie</span><h3>Weekend movie plan</h3><p>Sample listing. Real applications are not enabled in this preview.</p><div class="meta">Member · Age hidden until approved</div></article><article class="meeting"><span class="tag">Dinner</span><h3>Dinner and conversation</h3><p>Sample listing. No real member data is displayed.</p><div class="meta">Member · Age hidden until approved</div></article></div></section>
+<section id="how" class="section how"><p class="eyebrow">SIMPLE & RESPECTFUL</p><h2>How MEETUP works</h2><div class="steps"><div><b>01</b><h3>Create your profile</h3><p>Adults 18+ can create a profile and choose what to share.</p></div><div><b>02</b><h3>Find a meeting</h3><p>Explore public plans and apply to the ones that interest you.</p></div><div><b>03</b><h3>Approval & consent</h3><p>Contact details are shared only after approval and mutual consent.</p></div></div></section>
+</main><footer>MEETUP <span>· Meet responsibly. Choose public places. Respect consent.</span></footer>
+<dialog id="modal"><form method="dialog"><button class="x" aria-label="Close">×</button><p class="eyebrow">MEETUP ACCOUNT</p><h2 id="modalTitle">Welcome</h2><p>This is a front-end preview. Login, registration, applications and payments will work only after the secure backend is connected.</p><button class="primary">Got it</button></form></dialog>
+<script src="app.js"></script>
+</body></html>
